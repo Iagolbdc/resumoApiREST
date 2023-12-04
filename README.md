@@ -52,4 +52,4 @@ O HTTP Status Code (Código de Status HTTP) é uma parte essencial do protocolo 
 - **404 Not Found:** O recurso solicitado não foi encontrado no servidor.
 - **500 Internal Server Error:** Houve um erro interno no servidor ao processar a solicitação.
 
- **Autor do resumo: Iago Luan Barbosa Duda Campelo - 01522453**
+ **Autor do resumo: Iago Luan - 01522453**
