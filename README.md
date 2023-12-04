@@ -34,3 +34,22 @@ Uma API é considerada RESTful quando adere aos princípios da arquitetura REST.
 
 O HTTP Status Code (Código de Status HTTP) é uma parte essencial do protocolo HTTP usado para indicar o resultado de uma solicitação feita a um servidor web. Esses códigos são incluídos nas respostas do servidor para informar ao cliente sobre o sucesso, falha ou outro estado da solicitação.
 
+## Classes de Códigos
+
+- **1xx (Informational):** A solicitação foi recebida e pode precisar de ações adicionais do cliente.
+- **2xx (Successful):** A solicitação foi bem-sucedida e aceita, processada ou compreendida.
+- **3xx (Redirection):** A solicitação precisa de ações adicionais para ser concluída, geralmente envolvendo redirecionamento.
+- **4xx (Client Error):** A solicitação contém erros por parte do cliente.
+- **5xx (Server Error):** O servidor falhou ao cumprir uma solicitação válida.
+
+## Exemplos Mais Comuns
+
+- **200 OK:** A solicitação foi bem-sucedida.
+- **201 Created:** A solicitação resultou na criação de um novo recurso.
+- **204 No Content:** A solicitação foi bem-sucedida, mas nenhum conteúdo precisa ser retornado.
+- **400 Bad Request:** A solicitação do cliente é inválida ou malformada.
+- **401 Unauthorized:** A solicitação não foi autorizada, geralmente devido a credenciais ausentes ou inválidas.
+- **404 Not Found:** O recurso solicitado não foi encontrado no servidor.
+- **500 Internal Server Error:** Houve um erro interno no servidor ao processar a solicitação.
+
+ **Autor do resumo: Iago Luan Barbosa Duda Campelo - 01522453**
